@@ -7,8 +7,17 @@
     </head>
     <body>
         <h1>Benvingut al meu primer projecte amb JavaScript!</h1>
-        <input name="l" id />
-        <button onclick="saluda()">Clica'm!</button>
+        <input type="text" id="nom"/>
+        <button onclick="saluda2()">Clica'm!</button>
         <script src="scripts/scripts.js"></script>
+
+        <script>
+        function saluda2() {
+        let my = ""; // definim variables
+
+        my = document.getElementById("nom").value;
+    
+        saluda(my)}
+        </script>
     </body>
 </html>

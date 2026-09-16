@@ -1,6 +1,7 @@
-function saluda() {
+function saluda(msg) {
 
-
-  alert("Hola món! Has clicat el botó!");
-
+  alert(msg);
+  console.log(msg);
 }
+
+//saluda();
